@@ -27,7 +27,7 @@ while True:
 		botans = ["We sell apples!", "Apples are on the menu!","Please take a look at Apples"]
 		print('Bot said - '+random.choice(botans)+'\n')
 	elif a.lower() in hours:
-		botans = ["We are open 7am-4pm Monday-Friday!"]
+		botans = ["We are open 24/7"]
 		print('Bot said - '+random.choice(botans)+'\n')
 	else:
 		print('Bot said - Sorry What ?''\n')
